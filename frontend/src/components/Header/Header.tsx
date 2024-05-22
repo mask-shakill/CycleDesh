@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   return (
-    <nav className=" p-4">
+    <nav className=" p-4 bg-[#fcfcfc] ">
       <div className="container mx-auto flex justify-between items-center">
         {/* Brand Name */}
         <div className="text-xl font-bold ml-5">DeshCylce</div>
@@ -40,15 +40,15 @@ const Navbar: React.FC = () => {
               Pages
               <IoIosArrowDown />
             </a>
-            <div className="absolute hidden group-hover:block bg-white shadow-lg">
+            <div className="absolute hidden group-hover:block bg-white shadow-lg z-10 w-[140px]">
               <a href="#" className="block px-4 py-2 hover:bg-gray-200">
-                Page 1
+                About
               </a>
               <a href="#" className="block px-4 py-2 hover:bg-gray-200">
-                Page 2
+                Contact
               </a>
               <a href="#" className="block px-4 py-2 hover:bg-gray-200">
-                Page 3
+                Location
               </a>
             </div>
           </div>

@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes moveLeftRight {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(30px); /* Decreased value for less movement */
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-left-right_banner_img {
+  position: absolute;
+  top: 9rem; /* Adjust as needed */
+  right: 2.5rem; /* Adjust as needed */
+  width: 60%; /* Adjust as needed */
+  animation: moveLeftRight 5s infinite ease-in-out; /* Adjust duration as needed */
+}
