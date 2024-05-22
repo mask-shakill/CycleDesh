@@ -11,7 +11,7 @@ const Reliability = () => {
   }, []);
 
   return (
-    <div className="mx-16 mt-28">
+    <div className="mx-16 mt-48 mb-40">
       <div className="grid grid-cols-4 gap-3">
         <div
           data-aos="fade-right"
