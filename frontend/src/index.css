@@ -21,3 +21,10 @@
   width: 60%; /* Adjust as needed */
   animation: moveLeftRight 5s infinite ease-in-out; /* Adjust duration as needed */
 }
+
+.animate-left-right_electric_banner_img {
+  position: absolute;
+  top: -6.8rem; /* Adjust as needed */
+  width: 60%; /* Adjust as needed */
+  animation: moveLeftRight 5s infinite ease-in-out;
+}

@@ -7,7 +7,7 @@ const HeroBanner = () => {
           Quality <span className="text-[#ff733b]">Bikes</span> <br /> for Every{" "}
           <br /> Adventure
         </h1>
-        <button className="text-white font-bold bg-[#ff733b] px-14 py-4 mt-10 rounded-full uppercase">
+        <button className="text-white font-bold bg-[#ff733b] hover:bg-[#d54309] px-14 py-4 mt-10 rounded-full uppercase">
           Buy Now
         </button>
       </section>
@@ -16,7 +16,7 @@ const HeroBanner = () => {
       <div>
         <img
           src={bannerImage}
-          className="absolute top-36 right-10 w-[60%] animate-left-right_banner_img"
+          className="absolute top-36 right-10 w-[60%]"
           alt=""
         />
       </div>
