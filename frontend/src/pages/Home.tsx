@@ -4,6 +4,7 @@ import HeroBanner from "../components/Home/HeroBanner";
 import LetsShopping from "../components/Home/Lets-Go-Shopping/LetsShopping";
 import ProductCategories from "../components/Home/Product-Categories/ProductCategories";
 import Reliability from "../components/Home/Reliability";
+import Subscribe from "../components/Home/Subscribe/Subscribe";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <ElectricBanner />
       <ProductCategories />
       <LetsShopping />
+      <Subscribe />
     </div>
   );
 };
